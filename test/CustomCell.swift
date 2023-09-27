@@ -13,6 +13,7 @@ class CustomCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        print("wow")
     }
 
 }
