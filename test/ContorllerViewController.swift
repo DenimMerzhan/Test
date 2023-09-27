@@ -21,6 +21,7 @@ class ContorllerViewController: UIViewController {
         indicator.startAnimating()
         getImage()
         print("bla bla")
+        print("dwdwdw")
     }
     
     func getImage(){
