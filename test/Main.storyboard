@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IWH-xT-tDO">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contorller View Controller-->
+        <scene sceneID="ZJj-cO-imf">
+            <objects>
+                <viewController id="IWH-xT-tDO" customClass="ContorllerViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJB-CL-g1H">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fdG-LH-9Wl">
+                                <rect key="frame" x="20" y="259" width="353" height="300"/>
+                                <color key="backgroundColor" red="0.98431372640000003" green="0.90196073060000004" blue="0.48235297199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="ueg-d6-Ccs"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="a6k-P1-Jhy">
+                                <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ICV-wR-hAD"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fdG-LH-9Wl" firstAttribute="leading" secondItem="ICV-wR-hAD" secondAttribute="leading" constant="20" id="P5J-cl-uIC"/>
+                            <constraint firstItem="a6k-P1-Jhy" firstAttribute="centerY" secondItem="oJB-CL-g1H" secondAttribute="centerY" id="T3w-RV-dMw"/>
+                            <constraint firstItem="fdG-LH-9Wl" firstAttribute="top" secondItem="ICV-wR-hAD" secondAttribute="top" constant="200" id="cgK-kV-eKI"/>
+                            <constraint firstAttribute="trailing" secondItem="fdG-LH-9Wl" secondAttribute="trailing" constant="20" id="rkC-MW-LTj"/>
+                            <constraint firstItem="a6k-P1-Jhy" firstAttribute="centerX" secondItem="oJB-CL-g1H" secondAttribute="centerX" id="wGC-f3-eKJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="fdG-LH-9Wl" id="ulC-xg-Ci0"/>
+                        <outlet property="indicator" destination="a6k-P1-Jhy" id="k1x-iO-JUg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="It4-Za-5Bl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1090" y="-48"/>
+        </scene>
+    </scenes>
+</document>
