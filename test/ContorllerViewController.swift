@@ -20,8 +20,7 @@ class ContorllerViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         indicator.startAnimating()
         getImage()
-        print("Heyman")
-        
+        print("bla bla")
     }
     
     func getImage(){
