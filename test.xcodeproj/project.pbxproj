@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF53C13A2ABDA3B70005DBEC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53C1382ABDA3B70005DBEC /* CustomCell.swift */; };
-		CF53C13B2ABDA3B70005DBEC /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53C1392ABDA3B70005DBEC /* CustomCell.xib */; };
-		CF866B412ABDA99E005B33BE /* ContorllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF866B402ABDA99E005B33BE /* ContorllerViewController.swift */; };
+		8A264044AA991F66F195937A /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273F5F8267787CFA921A7A78 /* Pods_test.framework */; };
+		CF866B412ABDA99E005B33BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF866B402ABDA99E005B33BE /* ViewController.swift */; };
 		CF93FC512AC330AD001BA691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF93FC502AC330AD001BA691 /* Main.storyboard */; };
+		CF941B4B2ACC31410083B7F2 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF941B4A2ACC31410083B7F2 /* RedView.swift */; };
 		CFB6A1592A8A446100F2B37B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6A1582A8A446100F2B37B /* AppDelegate.swift */; };
 		CFB6A15B2A8A446100F2B37B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6A15A2A8A446100F2B37B /* SceneDelegate.swift */; };
 		CFB6A1622A8A446200F2B37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB6A1612A8A446200F2B37B /* Assets.xcassets */; };
@@ -18,16 +18,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF53C1382ABDA3B70005DBEC /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		CF53C1392ABDA3B70005DBEC /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		CF866B402ABDA99E005B33BE /* ContorllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContorllerViewController.swift; sourceTree = "<group>"; };
+		273F5F8267787CFA921A7A78 /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558DE1D7638977EB6CA7E480 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		CF866B402ABDA99E005B33BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF93FC502AC330AD001BA691 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CF941B4A2ACC31410083B7F2 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 		CFB6A1552A8A446100F2B37B /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB6A1582A8A446100F2B37B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFB6A15A2A8A446100F2B37B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFB6A1612A8A446200F2B37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFB6A1642A8A446200F2B37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB6A1662A8A446200F2B37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2168CD8599E3C210984A7C /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A264044AA991F66F195937A /* Pods_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301346B3D14FCE045C5EE659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				273F5F8267787CFA921A7A78 /* Pods_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F9DFF6D81236663A3367CDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				558DE1D7638977EB6CA7E480 /* Pods-test.debug.xcconfig */,
+				FD2168CD8599E3C210984A7C /* Pods-test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CFB6A14C2A8A446100F2B37B = {
 			isa = PBXGroup;
 			children = (
 				CFB6A1572A8A446100F2B37B /* test */,
 				CFB6A1562A8A446100F2B37B /* Products */,
+				5F9DFF6D81236663A3367CDA /* Pods */,
+				301346B3D14FCE045C5EE659 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +84,9 @@
 			children = (
 				CFB6A1582A8A446100F2B37B /* AppDelegate.swift */,
 				CFB6A15A2A8A446100F2B37B /* SceneDelegate.swift */,
-				CF866B402ABDA99E005B33BE /* ContorllerViewController.swift */,
+				CF866B402ABDA99E005B33BE /* ViewController.swift */,
+				CF941B4A2ACC31410083B7F2 /* RedView.swift */,
 				CF93FC502AC330AD001BA691 /* Main.storyboard */,
-				CF53C1382ABDA3B70005DBEC /* CustomCell.swift */,
-				CF53C1392ABDA3B70005DBEC /* CustomCell.xib */,
 				CFB6A1612A8A446200F2B37B /* Assets.xcassets */,
 				CFB6A1632A8A446200F2B37B /* LaunchScreen.storyboard */,
 				CFB6A1662A8A446200F2B37B /* Info.plist */,
@@ -80,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFB6A1692A8A446200F2B37B /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
+				9C66F43930B0043DD46D9044 /* [CP] Check Pods Manifest.lock */,
 				CFB6A1512A8A446100F2B37B /* Sources */,
 				CFB6A1522A8A446100F2B37B /* Frameworks */,
 				CFB6A1532A8A446100F2B37B /* Resources */,
+				131549BEEEB917BCF8B25E8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,21 +156,62 @@
 			files = (
 				CFB6A1652A8A446200F2B37B /* LaunchScreen.storyboard in Resources */,
 				CFB6A1622A8A446200F2B37B /* Assets.xcassets in Resources */,
-				CF53C13B2ABDA3B70005DBEC /* CustomCell.xib in Resources */,
 				CF93FC512AC330AD001BA691 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		131549BEEEB917BCF8B25E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C66F43930B0043DD46D9044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFB6A1512A8A446100F2B37B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF53C13A2ABDA3B70005DBEC /* CustomCell.swift in Sources */,
-				CF866B412ABDA99E005B33BE /* ContorllerViewController.swift in Sources */,
+				CF866B412ABDA99E005B33BE /* ViewController.swift in Sources */,
 				CFB6A1592A8A446100F2B37B /* AppDelegate.swift in Sources */,
+				CF941B4B2ACC31410083B7F2 /* RedView.swift in Sources */,
 				CFB6A15B2A8A446100F2B37B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +346,7 @@
 		};
 		CFB6A16A2A8A446200F2B37B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558DE1D7638977EB6CA7E480 /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +376,7 @@
 		};
 		CFB6A16B2A8A446200F2B37B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2168CD8599E3C210984A7C /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
