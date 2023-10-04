@@ -18,8 +18,10 @@
 //  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 //  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+//  OUT OF OR IN CONNECTION WITH// swiftlint:enable all THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
+
+
 
 #if os(iOS) || os(tvOS)
     import UIKit
@@ -29,6 +31,7 @@
 
 
 public extension ConstraintView {
+   
     
     @available(*, deprecated, renamed:"snp.left")
     var snp_left: ConstraintItem { return self.snp.left }
@@ -150,3 +153,5 @@ public extension ConstraintView {
     }
     
 }
+
+// swiftlint:enable all

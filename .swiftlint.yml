@@ -1,0 +1,15 @@
+disabled_rules:
+  - orphaned_doc_comment
+
+
+force_cast:
+  severity: warning # explicitly
+
+disabled_rules: [identifier_name,vertical_whitespace,trailing_whitespace,colon,control_statement,trailing_newline,blanket_disable_command]
+
+line_length:
+- 200 #warning
+- 300 #error
+
+
+
